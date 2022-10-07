@@ -1,7 +1,7 @@
 	<?php
 	error_reporting(0);
 	header('Access-Control-Allow-Origin: *');
-	header('Content-Type: application/json');
+	header('Content-Type: application/json'); 
 
 	$data = ['ok'=>false, 'code'=>null, 'message'=>null, 'result'=>[]];
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
